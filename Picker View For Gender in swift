@@ -34,10 +34,12 @@ class ViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
         
     }
     @objc func doneClick() {
-        
+                self.view.endEditing(true)
+
     }
     @objc func cancelClick() {
-        
+                self.view.endEditing(true)
+
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
